@@ -1,10 +1,10 @@
 /*
-
-Number Of Islands
  
-Find Number of Islands in a Matrix
+ Number Of Islands
  
-*/
+ Find Number of Islands in a Matrix
+ 
+ */
 
 
 func numIslands(_ grid: [[Character]]) -> Int {
@@ -39,10 +39,7 @@ func dfs(_ grid : inout [[Character]], _ i : Int, _ j : Int) -> Int{
 
 
 var inputMatrix = [
-                    [1,1,0],
-                    [1,1,0],
-                    [0,0,1]
-                  ]
-
-var 
-
+    [1,1,0],
+    [1,1,0],
+    [0,0,1]
+]

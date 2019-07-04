@@ -1,10 +1,17 @@
+//
+//  LinkedList.swift
+//  
+//
+//  Created by Mark Windsor on 7/4/19.
+//
+
+import Foundation
 import UIKit
 
 /*
-Linked Lists
-
-Here we will implement a linked list (insert, delete)
-*/
+ Linked Lists
+ Here we will implement a linked list (insert, delete)
+ */
 
 class Node {
     
@@ -69,7 +76,7 @@ class LinkedList {
             previousNode = currentNode
             currentNode = currentNode?.nextNode
         }
- 
+        
         previousNode?.nextNode = currentNode?.nextNode
     }
     
@@ -94,8 +101,3 @@ linkedList.displayLinkedList()
 if let headValue = linkedList.head?.value {
     print("Linked list head is : \(headValue)")
 }
-
-
-
-
-

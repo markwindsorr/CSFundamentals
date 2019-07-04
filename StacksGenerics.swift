@@ -1,14 +1,24 @@
+//
+//  LinkedList.swift
+//  
+//
+//  Created by Mark Windsor on 7/4/19.
+//
+
+import Foundation
+import UIKit
+
 import UIKit
 
 /*
  
-Here we analyze how to implement a Stack using a simple LinkedList Node Data structure.
-We are going to implement the push and pop functions of a Stack. Finally, let's support
-Genergice by modifying our Stack class to be of parameter T. This will allow us to push
-and pop values out of our Stack very easily based on what we need to support.
+ Here we analyze how to implement a Stack using a simple LinkedList Node Data structure.
+ We are going to implement the push and pop functions of a Stack. Finally, let's support
+ Genergice by modifying our Stack class to be of parameter T. This will allow us to push
+ and pop values out of our Stack very easily based on what we need to support.
  
  
-*/
+ */
 
 class Node<T> {
     
@@ -64,13 +74,10 @@ intStack.pop()
 let userStack = Stack<User>()
 
 let me = User(name: "Mark", username: "markwindsorr")
-let you = User(name: "Brian", username: "brianIsGun")
+let you = User(name: "Brian", username: "brianIsAGun")
 
 userStack.push(me)
 userStack.push(you)
 
 userStack.peek()
-
-
-
 
