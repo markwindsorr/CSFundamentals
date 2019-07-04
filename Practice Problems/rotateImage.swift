@@ -1,10 +1,10 @@
 /*
-
-Rotate Image
  
-You are given an n x n 2D matrix representing an image
+ Rotate Image
  
-Rotate the image by 90 degrees clockwise
+ You are given an n x n 2D matrix representing an image
+ 
+ Rotate the image by 90 degrees clockwise
  
  
  Given input matrix =
@@ -21,7 +21,7 @@ Rotate the image by 90 degrees clockwise
  [9,6,3]
  ]
  
-*/
+ */
 
 func rotate(_ matrix : inout [[Int]]) -> [[Int]] {
     
@@ -39,10 +39,10 @@ func rotate(_ matrix : inout [[Int]]) -> [[Int]] {
 
 
 var inputMatrix = [
-                    [1,2,3],
-                    [4,5,6],
-                    [7,8,9]
-                  ]
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
 
 let result = rotate(&inputMatrix)
 print(result)

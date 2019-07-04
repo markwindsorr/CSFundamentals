@@ -1,5 +1,5 @@
 /*
-
+ 
  Implement strStr()
  
  Return the index of the first occurrence of needle in haystack, or -1 if needle is not
@@ -11,7 +11,7 @@
  input: haystack = "aaaaa", needle = "bba"
  output -1
  
-*/
+ */
 
 func strStr(_ haystack : String, _ needle : String) -> Int {
     

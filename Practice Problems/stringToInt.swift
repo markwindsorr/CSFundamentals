@@ -31,21 +31,21 @@ func convert(string: String) -> Int? {
         }
     }
     return total
-   // return Int(string) ?? 0 // Solve this problem without the String to Int conversion code
+    // return Int(string) ?? 0 // Solve this problem without the String to Int conversion code
 }
 
 convert(string: sampleString)
 
 /*
-
+ 
  Explanation
  
-1.) First we create a hash map (dictionary) that maps characters to int values
+ 1.) First we create a hash map (dictionary) that maps characters to int values
  
-2.) Now we loop by index and character through the enumerated string
+ 2.) Now we loop by index and character through the enumerated string
  
-    Next we get the exponents used in the calculation with string.count - index - 1, which gives use [3, 2, 1, 0]
+ Next we get the exponents used in the calculation with string.count - index - 1, which gives use [3, 2, 1, 0]
  
-    Then we map the value starting from the top of the string and do our calculation and then add it to the total
+ Then we map the value starting from the top of the string and do our calculation and then add it to the total
  
-*/
+ */

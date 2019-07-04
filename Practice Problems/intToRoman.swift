@@ -1,9 +1,9 @@
 /*
  
-Roman to Int
-
+ Roman to Int
  
-Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
+ 
+ Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
  
  Symbol       Value
  I             1
@@ -21,7 +21,7 @@ Roman numerals are represented by seven different symbols: I, V, X, L, C, D and 
  - C can be placed before D and M
  
  
-*/
+ */
 
 
 let hash : [Character : Int] = ["I" : 1,
@@ -93,7 +93,7 @@ func romanToInt(_ roman: String) -> Int {
             total = total + hash[char]!
             break
         }
-
+        
     }
     return total
 }

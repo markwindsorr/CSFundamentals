@@ -1,8 +1,8 @@
 /*
  
-Integer to Roman
+ Integer to Roman
  
-Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
+ Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
  
  Symbol       Value
  I             1
@@ -20,7 +20,7 @@ Roman numerals are represented by seven different symbols: I, V, X, L, C, D and 
  - C can be placed before D and M
  
  
-*/
+ */
 
 
 let hash : [Int: Character] = [1    : "1",
