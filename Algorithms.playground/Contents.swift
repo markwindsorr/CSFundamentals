@@ -1,0 +1,10 @@
+
+// ALGORITHMS
+
+/*
+ 
+Binary Search
+ 
+
+ 
+*/
