@@ -13,7 +13,4 @@ Some important categories of algorithms are:
 
 """
 
-#__________________________________________________________________________________________________________________
-# Merge Sort
-# Merge sort first divides the array into equal halves and then combines them in a sorted manner
-
+#___________________________________________________________________________________________________
