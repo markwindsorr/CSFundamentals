@@ -1,5 +1,5 @@
 <h1 align="center">
-	:earth_americas:Fundamentals
+	:earth_americas: Fundamentals
 </h1>
 
 <h3 align="center">
@@ -29,7 +29,7 @@
 * [Fortran Problems](https://github.com/markwindsorr/CSFundamentals/tree/master/Fortran%20Problems)
 * [Swift Problems](https://github.com/markwindsorr/CSFundamentals/tree/master/Swift%20Problems)
 * [Python Problems](https://github.com/markwindsorr/CSFundamentals/tree/master/Python%20Problems)
-* [SQL Problems](hhttps://github.com/markwindsorr/CSFundamentals/tree/master/SQL%20Problems)
+* [SQL Problems](https://github.com/markwindsorr/CSFundamentals/tree/master/SQL%20Problems)
 
 
 
