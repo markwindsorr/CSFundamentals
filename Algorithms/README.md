@@ -9,7 +9,7 @@
 People use computers to process large amounts of data or solve difficult problems. Two questions arise from the usage of algorithms.
 
 * How long does my algorithm take?
-* How much memory will it take?
+* How much memory will it use?
 
 ## Scientific Method
 
@@ -36,7 +36,8 @@ ___
 | Exponential   | O(2^n)          | Exhaustive Search | Check all subsets|
 
 <sub><sup>Algorithms (Sedgewick, Wayne)</sup></sub>
-----
+
+___
 
 
 ### Selection Sort
@@ -45,6 +46,20 @@ ___
 | -------------  |:---------------:| ------:|---------:|--------:|----------------:| 
 | Selection Sort | YES             | 1/2n^2 | 1/2n^2   | 1/2n^2  | n exchanges; quadratic in best case          |
 
+
 Selection sort maintains two sub arrays, the sorted array and the unsorted array. It repeatedly finds the minimum in the unsorted array and puts it at the the beginning.
 
+1. Set minimum index to current 
+2. Search the unsorted list after the current index for the minimum, once found
+   assign minimum_index
+3. Swap the minimum_index value with the current index (which is the beginning of the unsorted list)
+4. Repeat until the list is sorted
+
 * [Python Selection Sort](https://github.com/markwindsorr/CSFundamentals/blob/master/Algorithms/SelectionSort.py)
+
+___
+
+
+
+
+
