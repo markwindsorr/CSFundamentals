@@ -41,6 +41,10 @@ ___
 
 ### Selection Sort
 
+| Algorithm      | In Place        | Best   | Average  |  Worst  | Remarks         |  
+| -------------  |:---------------:| ------:|---------:|--------:|----------------:| 
+| Selection Sort | YES             | 1/2n^2 | 1/2n^2   | 1/2n^2  | n exchanges; quadratic in best case          |
+
 Selection sort maintains two sub arrays, the sorted array and the unsorted array. It repeatedly finds the minimum in the unsorted array and puts it at the the beginning.
 
-* [Python Algorithms]()
+* [Python Selection Sort](https://github.com/markwindsorr/CSFundamentals/blob/master/Algorithms/SelectionSort.py)
