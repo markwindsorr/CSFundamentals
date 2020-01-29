@@ -2,10 +2,6 @@
 
 Container With Most Water
 
-Given an array nums of n integers, are there elements a, b and c in nums such that a+b+c=0. Find the unique triplets in the array which
-gives the sum of zero
-
-The solution set must not contain duplicate triplets
 """
 
 def max_area(height):

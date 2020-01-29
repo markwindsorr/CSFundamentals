@@ -8,22 +8,14 @@
 
 People use computers to process large amounts of data or solve difficult problems. Two questions arise from the usage of algorithms.
 
-* How long does my algorithm take?
-* How much memory will it use?
-
-## Scientific Method
-
-The same approach that scientists use to understand the natural world is effective for studying the run time of algorithms
-
-* Observe: some feature of the natural world
-* Hypothesize: a model that is consitent with the observations
-* Predict: Events using the hypothesis
-* Verify: the predictions by making further observations
-* Validate: by repeating until the hypothesis and observations agree
+* How long does my algorithm take? (Time Complexity)
+* How much memory will it use? (Space Complexity)
 
 ___
 
-## Orders-Of-Growth Classifications
+## Time Complexity
+
+### Orders-Of-Growth Classifications
 
 |               | Order Of Growth | Description       | Example          |  
 | ------------- |:---------------:| -----------------:|-----------------:| 
@@ -90,7 +82,51 @@ ____
 
 Quick sort is a divide and conquer method for sorting. It works by selecting a pivot point and then sorting the two parts on either side of the pivot point independantly.
 
+____
+
 # Searching
+
+### Linear Search
+
+The simplest search algorithm in which we start at the beginning and look at each value sequentially and check it matches what we are searching for.
+
+* [Python Linear Search](https://github.com/markwindsorr/CSFundamentals/blob/master/Algorithms/Python%20Algorithms/LinearSearch.py)
+
+
+### Binary Search
+
+Binary search can be used on a sorted list. It works by repeatedly dividing the list in two and discarding the half that we know does not contain the item we are searching. We do this until we've narrowed down the possible locations of the item to just one.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
