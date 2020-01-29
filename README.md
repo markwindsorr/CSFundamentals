@@ -10,15 +10,15 @@
 
 ----
 
-## Algorithms
+## :scroll: Algorithms
 
-* :scroll: [Algorithms](https://github.com/markwindsorr/CSFundamentals/tree/master/Algorithms)
+* [Algorithms](https://github.com/markwindsorr/CSFundamentals/tree/master/Algorithms)
 
 ----
 
-## Data Structures
+## :statue_of_liberty: Data Structures
 
-* :statue_of_liberty: [Data Structures](https://github.com/markwindsorr/CSFundamentals/tree/master/Data%20Structures)
+* [Data Structures](https://github.com/markwindsorr/CSFundamentals/tree/master/Data%20Structures)
 
 ----
 

@@ -1,3 +1,6 @@
+
+
+
 def selection_sort(a_list):
 
 	for i in range(len(a_list)):

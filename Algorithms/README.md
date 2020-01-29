@@ -39,6 +39,7 @@ ___
 
 ___
 
+## Sorting
 
 ### Selection Sort
 
@@ -47,7 +48,7 @@ ___
 | Selection Sort | YES             | 1/2n^2 | 1/2n^2   | 1/2n^2  | n exchanges; quadratic in best case          |
 
 
-Selection sort maintains two sub arrays, the sorted array and the unsorted array. It repeatedly finds the minimum in the unsorted array and puts it at the the beginning.
+Selection sort maintains two sub arrays, the sorted array and the unsorted array. It repeatedly finds the minimum in the unsorted array and puts it at the the beginning of the unsorted array.
 
 1. Set minimum index to current 
 2. Search the unsorted list after the current index for the minimum, once found
@@ -56,6 +57,18 @@ Selection sort maintains two sub arrays, the sorted array and the unsorted array
 4. Repeat until the list is sorted
 
 * [Python Selection Sort](https://github.com/markwindsorr/CSFundamentals/blob/master/Algorithms/SelectionSort.py)
+
+___
+
+### Insertion Sort
+
+| Algorithm      | In Place        | Best   | Average  |  Worst  | Remarks         |  
+| -------------  |:---------------:| ------:|---------:|--------:|----------------:| 
+| Insertion Sort | YES             | n      | 1/4n^2   | 1/2n^2  | use for small or partially sorted arrays |
+
+Insertion sort works the same way as if we were to sort a deck of cards with our hands. Considers one item at a time and inserts each into its proper place among the sorted array.
+
+* [Python Insertion Sort](https://github.com/markwindsorr/CSFundamentals/blob/master/Algorithms/Python%20Algorithms/InsertionSort.py)
 
 ___
 
