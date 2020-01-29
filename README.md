@@ -12,17 +12,17 @@
 
 ## Algorithms
 
-* [Python Algorithms](https://github.com/markwindsorr/CSFundamentals/tree/master/Python%20Algorithms)
+* :scroll: [Algorithms](https://github.com/markwindsorr/CSFundamentals/tree/master/Algorithms)
 
 ----
 
 ## Data Structures
 
-* [Swift Data Structures](https://github.com/markwindsorr/CSFundamentals/tree/master/Swift%20Data%20Structures)
+* :statue_of_liberty: [Data Structures](https://github.com/markwindsorr/CSFundamentals/tree/master/Data%20Structures)
 
 ----
 
-## Practice Questions
+## :pencil2: Practice Questions
 
 * [Fortran Problems](https://github.com/markwindsorr/CSFundamentals/tree/master/Fortran%20Problems)
 * [Swift Problems](https://github.com/markwindsorr/CSFundamentals/tree/master/Swift%20Problems)
