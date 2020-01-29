@@ -39,7 +39,7 @@ ___
 
 ___
 
-## Sorting
+# Sorting
 
 ### Selection Sort
 
@@ -72,6 +72,25 @@ Insertion sort works the same way as if we were to sort a deck of cards with our
 
 ___
 
+### Merge Sort
+
+| Algorithm      | In Place        | Best     | Average  |  Worst  | Remarks         |  
+| -------------  |:---------------:| --------:|---------:|--------:|----------------:| 
+| Merge Sort     | No              | 1/2nlog n| nlogn    | nlog n  | nlogn guarantee and stable |
+
+Merge sort works as follows. To sort an array, divide it into two halves, sort the two halves recursively, and then merge the results.
+
+____
+
+### Quick Sort
+
+| Algorithm      | In Place        | Best     | Average  |  Worst  | Remarks         |  
+| -------------  |:---------------:| --------:|---------:|--------:|----------------:| 
+| Quick Sort     | Yes             | n        | 2nlogn   | 2nlog n  | nlogn guarantee |
+
+Quick sort is a divide and conquer method for sorting. It works by selecting a pivot point and then sorting the two parts on either side of the pivot point independantly.
+
+# Searching
 
 
 
