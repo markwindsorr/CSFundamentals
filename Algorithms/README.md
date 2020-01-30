@@ -27,7 +27,6 @@ ___
 | Cubic         | O(n^3)          | Triple Loop       | Check all triples|
 | Exponential   | O(2^n)          | Exhaustive Search | Check all subsets|
 
-<sub><sup>Algorithms (Sedgewick, Wayne)</sup></sub>
 
 ___
 
@@ -98,11 +97,11 @@ The simplest search algorithm in which we start at the beginning and look at eac
 Binary search can be used on a sorted list. It works by repeatedly dividing the list in two and discarding the half that we know does not contain the item we are searching. We do this until we've narrowed down the possible locations of the item to just one.
 
 
+____
 
+Sources & Thanks To
 
-
-
-
+<sub><sup>Algorithms (Sedgewick, Wayne)</sup></sub>
 
 
 

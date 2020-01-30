@@ -24,10 +24,10 @@
 
 ## :pencil2: Practice Questions
 
-* [Fortran Problems](https://github.com/markwindsorr/CSFundamentals/tree/master/Fortran%20Problems)
-* [Swift Problems](https://github.com/markwindsorr/CSFundamentals/tree/master/Swift%20Problems)
-* [Python Problems](https://github.com/markwindsorr/CSFundamentals/tree/master/Python%20Problems)
-* [SQL Problems](https://github.com/markwindsorr/CSFundamentals/tree/master/SQL%20Problems)
+* [Fortran Problems](https://github.com/markwindsorr/CSFundamentals/tree/master/Problems/Fortran%20Problems)
+* [Swift Problems](https://github.com/markwindsorr/CSFundamentals/tree/master/Problems/Swift%20Problems)
+* [Python Problems](https://github.com/markwindsorr/CSFundamentals/tree/master/Problems/Python%20Problems)
+* [SQL Problems](https://github.com/markwindsorr/CSFundamentals/tree/master/Problems/SQL%20Problems)
 
 
 
