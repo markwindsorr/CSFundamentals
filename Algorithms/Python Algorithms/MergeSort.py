@@ -47,6 +47,7 @@ def mergeSort(alist):
        j=0
        k=0
 
+    
        while i < len(lefthalf) and j < len(righthalf):
            if lefthalf[i] < righthalf[j]:
                alist[k]=lefthalf[i]
@@ -56,11 +57,13 @@ def mergeSort(alist):
                j=j+1
            k=k+1
 
+       # Checking if any element was left on the left side
        while i < len(lefthalf):
            alist[k]=lefthalf[i]
            i=i+1
            k=k+1
 
+       # Checking if any element was left on the right side
        while j < len(righthalf):
            alist[k]=righthalf[j]
            j=j+1
