@@ -61,17 +61,10 @@ VALUES
    ( 3, N'Tom', N'Germany'),
    ( 4, N'Jake', N'United States')
 GO
--- Query the total count of employees
-SELECT COUNT(*) as EmployeeCount FROM dbo.Employees;
--- Query all employee information
-SELECT e.EmployeesId, e.Name, e.Location
-FROM dbo.Employees as e
-GO
 
 
 -- =========================================================================
 -- List Tables in your Database
-
 
 select schema_name(t.schema_id) as schema_name,
        t.name as table_name,
@@ -85,5 +78,45 @@ order by schema_name,
 -- =========================================================================
 -- Drop/Delete table in your database
 
-
 DROP TABLE dbo.PurchaseOrderDetail;
+
+-- =========================================================================
+-- SELECT 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
