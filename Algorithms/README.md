@@ -96,7 +96,6 @@ The simplest search algorithm in which we start at the beginning and look at eac
 
 Binary search can be used on a sorted list. It works by repeatedly dividing the list in two and discarding the half that we know does not contain the item we are searching. We do this until we've narrowed down the possible locations of the item to just one.
 
-
 ____
 
 Sources & Thanks To
