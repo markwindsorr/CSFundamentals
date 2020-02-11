@@ -63,24 +63,27 @@ A tree whose nodes have at most 2 children. We typically the child nodes left an
 
 #### Recursive In Order
 
+```
  inorder(node)
  	if node == null:
  	    return
  	inorder(node.left)
  	visit(node)
  	inorder(node.right)
-
+```
 
  In other words, we keep exploring the left child node until we find null. When we find null, we have reached a leaf node. Then we visit the leaf nodes root, and then we visit the next right child in which we do the same process, exploring the left subtree.
 
  ***Preorder Traversal (Root, Left, Right)***
 
+```
  preorder(node)
  	if node == null:
  		return
  	visit(node)
  	preorder(node.left)
  	preorder(node.right)
+```
 
 1. Check if the current node is empty
 2. Visit the root node(the current root node)
