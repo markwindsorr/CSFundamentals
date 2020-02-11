@@ -37,17 +37,15 @@ ___
 
 Unlike arrays, linked lists, stacks and queues, a tree is a non-linear data structure that simulates a hierarchical tree structure, with a root value and subtrees of child nodes. 
 
-One reason you might want to use trees to store information is that its data is hierarchical in nature, such as a file system on a computer.
+      tree
+      ----
+       j    <-- root
+     /   \
+    f      k  
+  /   \      \
+ a     h      z    <-- leaves 
 
-file system
------------
-     /    <-- root
-  /      \
-...       home
-      /          \
-   ugrad        course
-    /       /      |     \
-  ...      cs101  cs112  cs113 
+One reason you might want to use trees to store information is that its data is hierarchical in nature, such as a file system on a computer.
 
 
 
