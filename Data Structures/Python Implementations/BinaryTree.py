@@ -10,35 +10,41 @@ class Node:
 		self.right = None
 		self.data = data
 
-	# Create root
-	root = Node(1)
-	''' The current Tree
-     
-        1 
-      /   \
-     None  None
+	def print_in_order(node):
 
-     '''
+		if node:
 
-     # Add Left and Right Nodes to the root
+			# Recursion on left child
+			print_in_order(node.left)
 
-     root.left = Node(2)
-     root.right = Node(3)
+			# "Visit" and access the current nodes data
+			print(node.data)
 
-     ''' 2 and 3 become left and right children of 1 
-             1 
-          /     \
-        2        3 
-      /   \     /  \
-    None None  None None
-   '''
+			# Recursion on right child
+			print_in_order(node.right)
 
-   	 root.left.left = Node(4)
-   	 '''4 becomes left child of 2 
-           1 
-       /       \ 
-      2          3 
-    /   \       /  \ 
-   4    None  None  None 
-  /  \ 
-None None'''
+	def print_pre_order(node):
+
+		if node: 
+
+			# "Visit" and access the current nodes data
+			print(node.data)
+
+			# Recursion on left child
+			print_pre_order(node.left)
+
+			# Recursion on right child
+			print_pre_order(node.right)
+
+	def print_post_order(node)
+
+		if node:
+
+			# Recursion on left child
+			print_post_order(node.left)
+
+			# Recursion on right child
+			print_post_order(node.right)
+
+			# "Visit" and access the current nodes data
+			print(node.data)

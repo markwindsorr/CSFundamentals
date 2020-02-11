@@ -54,6 +54,8 @@ A tree whose nodes have at most 2 children. We typically the child nodes left an
 
 ***Inorder Traversal (Left, Root, Right)***
 
+In the case of a binary search tree, in order traversal gives nodes in a non-decreasing order. You can reverse the order of operations to get a non-increasing order
+
  1. Check if the current node is empty
  2. Traverse the left subtree by recursively calling the in-order traversal function
  3. Visit the root, display the data
@@ -76,19 +78,42 @@ A tree whose nodes have at most 2 children. We typically the child nodes left an
 
  ***Preorder Traversal (Root, Left, Right)***
 
+1. Check if the current node is empty
+2. Visit the root node(the current root node)
+3. Traverse the left subtree by recursively by calling the preorder function
+4. Traverse the right subtree by recursively 
+
+1, 2, 4, 5, 3
+
+#### Recursive Pre Order
+
 ```
  preorder(node)
- 	if node == null:
+    if node == null:
  		return
  	visit(node)
  	preorder(node.left)
  	preorder(node.right)
 ```
 
+***Postorder Traversal (Left, Right, Root)***
+
 1. Check if the current node is empty
-2. Visit the root node(the current root node)
-3. Traverse the left subtree by recursively by calling the preorder function
-4. Traverse the right subtree by recursively 
+2. Traverse the left subtree by recursively calling the postorder function
+3. Traverse the right subtree by recursively calling the postorder function
+4. Visit the node
+
+4, 5, 2, 3, 1
+
+```
+postorder(node):
+	if node == null:
+		return
+	postorder(node.left)
+	postorder(node.right)
+	visit(node)
+```
+
 
 
 
