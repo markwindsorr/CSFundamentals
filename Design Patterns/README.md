@@ -8,7 +8,17 @@
 
 ___
 
-## Singleton
+## Creational
+
+### Singleton
 
 The singleton design pattern ensures that there is only one instance of that class and that you can access it globally.
+
+## Structural
+
+## Behavioral
+
+### Singleton
+
+
 
