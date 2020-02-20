@@ -98,6 +98,33 @@ Binary search can be used on a sorted list. It works by repeatedly dividing the 
 
 ____
 
+
+### Depth First Search (DFS)
+
+DFS is used for tree, matrix or graph traversal. (Note that pre order tree traversal is a form of DFS). The algorithm starts at a root node and explores as far along as possible each branch. When implementing dfs for a graph we must check if the node is visited, because we may run the risk of getting stuck in an infinite loop.
+
+Pseudocode:
+```
+def depth_first_search(Node root):
+    if root == null: return
+    visit(root)
+    root.isVisited = true
+    for node in root.adjacent:
+    	if node.isVisited == false"
+    		depth_first_search(node)
+``` 
+
+____
+
+
+
+### Binary Search
+
+Binary search can be used on a sorted list. It works by repeatedly dividing the list in two and discarding the half that we know does not contain the item we are searching. We do this until we've narrowed down the possible locations of the item to just one.
+
+____
+
+
 Sources & Thanks To
 
 <sub><sup>Algorithms (Sedgewick, Wayne)</sup></sub>
