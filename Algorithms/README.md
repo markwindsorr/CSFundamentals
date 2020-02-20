@@ -105,22 +105,38 @@ DFS is used for tree, matrix or graph traversal. (Note that pre order tree trave
 
 Pseudocode:
 ```
-def depth_first_search(Node root):
+def dfs(Node root):
     if root == null: return
     visit(root)
     root.isVisited = true
     for node in root.adjacent:
     	if node.isVisited == false"
-    		depth_first_search(node)
+    		dfs(node)
 ``` 
 
 ____
 
 
+### Breadth First Search (BFS)
 
-### Binary Search
+BFS is another algorithm that can be used for searching a tree, matrix or graph. In BFS, we use a queue instead of a recursive call. We start at a root node and explore all of the root nodes neighbors before moving onto the next node. We can think of bfs as searching level by level out from the root. (Note that a queue is a line. Think of a line up at a movie theatre)
 
-Binary search can be used on a sorted list. It works by repeatedly dividing the list in two and discarding the half that we know does not contain the item we are searching. We do this until we've narrowed down the possible locations of the item to just one.
+Pseudocode:
+```
+def bfs(Node root):
+    queue = Queue()
+    root.isVisited = true
+    queue.enqueue(root) # Add to the end of the queue
+
+    while !queue.isEmpty: # While our queue is not empty, repeat
+    	node = queue.dequeue() # Remove node from the front of the queue
+    	visit(node)
+    	for adjacent_node in node.adjacent:
+    	    if adjacent_node.isVisited == false:
+    	        adjacent_node.isVisited = true
+    	        queue.enqueue(adjacent_node)
+
+```
 
 ____
 
