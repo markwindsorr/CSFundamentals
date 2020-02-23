@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/csBanner.jpg">
+</p>
+
 <h1 align="center">
 	:earth_americas: Fundamentals
 </h1>
