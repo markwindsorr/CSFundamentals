@@ -28,7 +28,8 @@ Commonly used for user interfaces and divides the program logic into three inter
 
 ### Model-View-ViewModel (MVVM)
 
-Separates the development of the interface from the development of the business logic. Its a structural design pattern that separates objects into three distinct groups:
+
+Separates the development of the interface from the development of the business logic. The view model provides data from the model in a form that the view can easily use. Its a structural design pattern that separates objects into three distinct groups:
 
 * Models: holds the applications data. They're usually structs or simple classes.
 * Views: displays visual elements and controls on the screen

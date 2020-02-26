@@ -96,6 +96,13 @@ The simplest search algorithm in which we start at the beginning and look at eac
 
 Binary search can be used on a sorted list. It works by repeatedly dividing the list in two and discarding the half that we know does not contain the item we are searching. We do this until we've narrowed down the possible locations of the item to just one.
 
+The idea is to compare the target value to the middle of the array. Of course we can do this iteratively or recursively.
+
+***Iteratively***
+* If the target value is equal to the middle element, we've found our value
+* If the target value is smaller than the middle element, continue our search to the left
+* If the target value is larger than the middle element, continue our search to the right
+
 ____
 
 
